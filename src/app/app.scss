@@ -1,0 +1,35 @@
+.sidenav-love-container{
+    height: 100%;
+}
+
+.sidenav-content-love{
+    border-bottom: 1px solid red;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffe6e6, #ffffff);
+
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.sidenav-love{
+    border: 1px solid rgb(100, 59, 59);
+    padding: 20px;
+    max-width: 200px;
+    background-color: #ffe6e6;
+
+}
+
+.texto-header{
+    font-size: large;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #800000;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    width: 100%;
+}
+.menu-button{
+    position: absolute;
+}

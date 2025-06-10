@@ -1,0 +1,18 @@
+<mat-drawer-container class="sidenav-love-container" autosize>
+  <mat-drawer #drawer class="sidenav-love" mode="side">
+    <app-sidebar (linkClicked)="drawer.close()"></app-sidebar>
+  </mat-drawer>
+
+  <div class="sidenav-content-love">
+    <button type="button" class="menu-button" matButton (click)="drawer.toggle()">
+      <mat-icon >menu</mat-icon>
+    </button>
+    <p class="texto-header">
+      Feliz Dia dos Namorados!
+    </p>
+  </div>
+  <hr>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</mat-drawer-container>
+

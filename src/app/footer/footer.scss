@@ -1,0 +1,67 @@
+.footer {
+  background-color: #c7a7a7;
+  color: white;
+  position: fixed; /* or use 'relative' if not always at bottom */
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(151, 66, 66, 0.2);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer a:hover {
+  color: white;
+}
+.corazon{
+    height:15px;
+    padding: 2px;
+}
+
+.sliding-footer {
+white-space: nowrap;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.sliding-footer {
+display: inline-block;
+padding-left: 100%; /* start off screen to the right */
+animation: sliding-footer 10s linear infinite;
+}
+
+@keyframes sliding-footer {
+0%   { transform: translateX(-100%); }
+100% { transform: translateX(100%); }
+}
+
+.sliding-footer-reverse {
+white-space: nowrap;
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.sliding-footer-reverse {
+display: inline-block;
+padding-left: 100%; /* start off screen to the right */
+animation: sliding-footer-reverse 10s linear infinite;
+}
+
+@keyframes sliding-footer-reverse {
+0%   { transform: translateX(100%); }
+100% { transform: translateX(-100%); }
+}
+
+.footer-brabo{
+    display: inline-block;
+}
